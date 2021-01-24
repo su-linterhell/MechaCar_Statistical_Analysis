@@ -21,6 +21,7 @@ The design specifications for the MechaCar requires the variance of suspension c
 
 Another way to test if the PSI for each manufacturing lot is statstically different from the population mean of 1,500 pounds per square inch (PSI) is by performing a t-Test. I performed 4 t-Tests to compare all manufacturing lots and each individual lot to the population mean for PSI. Each t-Test had a similar null and alternative hypothesis. The null and alternative hypothesis are as follows:
 
+
 H0: There is no statistical difference between the observed sample mean and its population mean 
 Ha: There is a statistical difference between the observed sample mean and its population mean
 
