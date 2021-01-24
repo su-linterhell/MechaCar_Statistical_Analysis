@@ -38,7 +38,7 @@ For Lot 1, the p-value is not less than the significance level of .05. There is 
 #### Lot 2 
 ![lot2_ttest](photos/lot2_ttest.png)
 
-For Lot 2, the p-value is not less than the significance level of .05. There is not sufficient statistical evidence to reject the null hypothesis. There is enough statistic evidence to state the mean PSI across Lot 1 is equal to the population mean. 
+For Lot 2, the p-value is not less than the significance level of .05. There is not sufficient statistical evidence to reject the null hypothesis. There is enough statistic evidence to state the mean PSI across Lot 2 is equal to the population mean. 
 
 #### Lot 3 
 ![lot3_ttest](photos/lot3_ttest.png)
