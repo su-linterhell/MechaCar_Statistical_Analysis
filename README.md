@@ -57,6 +57,7 @@ Using a Two-Sample t-Test I would test the following hypotheses:
 
 
 H0: There is no statistical difference between the two observed sample means
+
 Ha: There is a statistical difference between the two observed sample means 
 
 I would use a Two-Sample t-Test because I am looking to see if there is a difference betwee the distribution between two samples. I want to analyze data from MechaCar and the Prius to understand if there is a difference in the highway fuel efficiency. I would need data from both Mechacar and the Toyota Prius that provides the highway fuel efficiency for a large enough sample. We want a larger sample size to be sure our data has a normalized distribution. A sample size of 50 or more cars between both vehicle types should be sufficient. 
