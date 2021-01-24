@@ -19,3 +19,21 @@ head(suspension_table)
 total_summary <-summarize(suspension_table, Mean=mean(PSI), Median=median(PSI),Variance=var(PSI),SD= sd(PSI), .groups='keep')
 
 lot_summary <- suspension_table%>% group_by(Manufacturing_Lot)%>%summarize(Mean=mean(PSI), Median=median(PSI),Variance=var(PSI),SD= sd(PSI), .groups='keep' )
+
+?t.test()
+
+t.test(suspension_table$PSI, mu=1500)
+
+lot1 <- subset(suspension_table, Manufacturing_Lot =='Lot1')
+
+t.test(lot1$PSI, mu=1500)
+
+lot2 <- subset(suspension_table, Manufacturing_Lot =='Lot2')
+
+t.test(lot2$PSI, mu=1500)
+
+
+lot3 <- subset(suspension_table, Manufacturing_Lot =='Lot3')
+
+t.test(lot3$PSI, mu=1500)
+
